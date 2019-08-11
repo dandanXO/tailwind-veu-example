@@ -1,26 +1,28 @@
 <template>
   <div id="app">
-    <div class="flex justify-center bg-gray-200 flex-col">
-      <h1 class="text-5xl">Grid test</h1>
+    <div class="DANprefix-flex DANprefix-justify-center bg-gray-200 DANprefix-flex-col">
+      <h1 class="DANprefix-text-5xl">Grid test</h1>
     </div>
-    <div class="flex mb-4 justify-center">
-      <div class="w-1/3 bg-gray-400">
-        <img alt="Vue logo" class="m-auto" src="./assets/logo.png" />
+    <div class="DANprefix-flex DANprefix-mb-4 DANprefix-justify-center">
+      <div class="DANprefix-w-1/3 DANprefix-bg-gray-400">
+        <img alt="Vue logo" class="DANprefix-m-auto" src="./assets/logo.png" />
       </div>
     </div>
-    <div class="flex bg-gray-200">
+    <div class="DANprefix-flex DANprefix-bg-gray-200">
       <div
-        class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"
+        class="DANprefix-flex-1 DANprefix-text-gray-700 DANprefix-text-center DANprefix-bg-gray-400 DANprefix-px-4 DANprefix-py-2 DANprefix-m-2"
       >flex test</div>
       <div
-        class="flex-1 text-gray-800 text-center bg-gray-500 px-4 py-2 m-2"
+        class="DANprefix-flex-1 DANprefix-text-gray-800 DANprefix-text-center DANprefix-bg-gray-500 DANprefix-py-2 DANprefix-m-2"
       >flex test</div>
       <div
-        class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2"
+        class="DANprefix-flex-1 DANprefix-text-gray-700 DANprefix-text-center DANprefix-bg-gray-400 DANprefix-py-2 DANprefix-m-2"
       >flex test</div>
     </div>
-    <button class=" text-white py-2 px-4  bg-dan-300 hover:bg-dan-600">test for theme DAN color</button>
-     <button class="btn bg-dan-300 hover:bg-dan-600">test for @apply function</button>
+    <button class="DANprefix-text-white DANprefix-py-2 DANprefix-px-4  DANprefix-bg-dan-300 hover:DANprefix-bg-dan-600">test for theme DAN color</button>
+     <button class="btn DANprefix-bg-dan-300 hover:DANprefix-bg-dan-600">test for @apply function</button>
+     If you'd like to prefix your own utilities as well, just add the prefix to the class definition.
+     <br>
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>

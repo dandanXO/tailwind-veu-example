@@ -1,5 +1,5 @@
 module.exports = {
-  prefix: '',
+  prefix: 'DANprefix-',
   important: false,
   separator: ':',
   theme: {
